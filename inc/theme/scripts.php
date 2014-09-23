@@ -45,7 +45,8 @@ add_action( 'wp_enqueue_scripts', 'dazzling_scripts' );
 * -----------------------------------------------------------------*/
 
 function nake_benehime_enqueue_scripts() {
-	
+	wp_enqueue_style( 'nake-benehime', get_stylesheet_directory_uri() . '/inc/css/compiled.css', array('dazzling') );
+
 
 }
 add_action( 'wp_enqueue_scripts', 'nake_benehime_enqueue_scripts' );

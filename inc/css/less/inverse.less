@@ -1,0 +1,74 @@
+/* ==================================================================
+*
+*   inverse.less
+*
+* -----------------------------------------------------------------*/
+.inverse-lg {
+	padding:24px;
+}
+.inverse-blue {
+	background:@blue;
+}
+.inverse-blue-light {
+	background:@blue-light;
+}
+.inverse-green {
+	background:@green;
+}
+.inverse,
+.inverse h1,
+.inverse h2,
+.inverse h3,
+.inverse h4,
+.inverse h5,
+.inverse h6,
+.inverse blockquote footer
+ {
+	color:@white;
+}
+
+.inverse blockquote p {
+	font-weight: 300;
+		position: relative;
+		padding:12px;
+		border: 2px solid @white;
+	}
+.inverse blockquote p:after, .inverse blockquote p:before {
+	pointer-events: none;
+}
+.inverse blockquote p:after {
+	content: ' ';
+	position: absolute;
+	bottom: -31px;
+	left: 0px;
+	z-index: 99;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 32px 24px 0 0px;
+	border-color: @green transparent transparent transparent;
+}
+.inverse blockquote p:before {
+	content: ' ';
+	position: absolute;
+	bottom: -38px;
+	left: -2px;
+	z-index: 99;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 38px 28px 0 0px;
+	border-color: @white transparent transparent transparent;
+}
+.inverse blockquote footer {
+	margin-top:48px;
+}
+.inverse blockquote footer:before {
+	content: none;
+}
+
+
+.inverse .page-header,
+.inverse blockquote {
+	border:none;
+}

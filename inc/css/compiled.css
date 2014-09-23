@@ -1,0 +1,268 @@
+/* ==================================================================
+*
+*   global.less
+*
+* -----------------------------------------------------------------*/
+a,
+a:hover,
+a:active,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: #00539b;
+}
+body {
+  padding-top: 66px;
+}
+.text-light {
+  font-weight: 200;
+}
+/* ==================================================================
+*
+*   post.less
+*
+* -----------------------------------------------------------------*/
+.entry-title {
+  color: #00539b;
+}
+.entry-content {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #333333;
+}
+/* ==================================================================
+*
+*   footer.less
+*
+* -----------------------------------------------------------------*/
+#colophon {
+  background-color: #00539b;
+}
+#footer-area,
+.site-info {
+  color: #ffffff;
+}
+#footer-area {
+  background-color: #555555;
+}
+.site-info a,
+#footer-area a {
+  color: #ffffff;
+}
+/* ==================================================================
+*
+*   social.less
+*
+* -----------------------------------------------------------------*/
+.social-icon {
+  color: #ffffff !important;
+}
+.social-icon:hover {
+  color: #5e9732 !important;
+}
+.map-overlay {
+  background: transparent;
+  position: relative;
+  width: 100%;
+  height: 360px;
+  /* your iframe height */
+  top: 360px;
+  /* your iframe height */
+  margin-top: -360px;
+  /* your iframe height */
+}
+/* ==================================================================
+*
+*   button.less
+*
+* -----------------------------------------------------------------*/
+.btn-default {
+  background-color: #00539b;
+  border-color: #00539b;
+}
+.cfa {
+  background-color: #00539b;
+}
+.cfa-button:hover {
+  color: #00539b;
+}
+#infinite-handle span {
+  color: #00539b;
+}
+/* ==================================================================
+*
+*   flexslider.less
+*
+* -----------------------------------------------------------------*/
+.flex-caption h2 {
+  background-color: #00539b;
+  border-color: #00539b;
+}
+/* ==================================================================
+*
+*   navigation.less
+*
+* -----------------------------------------------------------------*/
+.dropdown-menu,
+.navbar.navbar-default {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #00539b;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background-color: #00539b;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #00539b;
+}
+.logged-in .navbar-default {
+  padding-top: 32px;
+}
+/* ==================================================================
+*
+*   comment.less
+*
+* -----------------------------------------------------------------*/
+.recentcomments a {
+  display: inline !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+/* ==================================================================
+*
+*   forms.less
+*
+* -----------------------------------------------------------------*/
+.label-default {
+  background-color: #00539b;
+  border-color: #00539b;
+}
+/* ==================================================================
+*
+*   inverse.less
+*
+* -----------------------------------------------------------------*/
+.inverse-lg {
+  padding: 24px;
+}
+.inverse-blue {
+  background: #00539b;
+}
+.inverse-blue-light {
+  background: #9bd1ff;
+}
+.inverse-green {
+  background: #5e9732;
+}
+.inverse,
+.inverse h1,
+.inverse h2,
+.inverse h3,
+.inverse h4,
+.inverse h5,
+.inverse h6,
+.inverse blockquote footer {
+  color: #ffffff;
+}
+.inverse blockquote p {
+  font-weight: 300;
+  position: relative;
+  padding: 12px;
+  border: 2px solid #ffffff;
+}
+.inverse blockquote p:after,
+.inverse blockquote p:before {
+  pointer-events: none;
+}
+.inverse blockquote p:after {
+  content: ' ';
+  position: absolute;
+  bottom: -31px;
+  left: 0px;
+  z-index: 99;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 32px 24px 0 0px;
+  border-color: #5e9732 transparent transparent transparent;
+}
+.inverse blockquote p:before {
+  content: ' ';
+  position: absolute;
+  bottom: -38px;
+  left: -2px;
+  z-index: 99;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 38px 28px 0 0px;
+  border-color: #ffffff transparent transparent transparent;
+}
+.inverse blockquote footer {
+  margin-top: 48px;
+}
+.inverse blockquote footer:before {
+  content: none;
+}
+.inverse .page-header,
+.inverse blockquote {
+  border: none;
+}
+/* ==================================================================
+*
+*   front-page.less
+*
+* -----------------------------------------------------------------*/
+.home .page-header,
+.home .widget-title {
+  border: none;
+}
+/* ==================================================================
+*
+*   responsive.less
+*
+* -----------------------------------------------------------------*/
+@media (max-width: 768px) {
+  #logo {
+    margin-left: 15px;
+  }
+  #logo img {
+    max-width: 227px;
+    height: 50px;
+  }
+  .logged-in .navbar-default {
+    padding-top: 0;
+  }
+  .navbar-toggle:hover,
+  .navbar-default .navbar-toggle {
+    border-color: #00539b;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #00539b;
+  }
+}
